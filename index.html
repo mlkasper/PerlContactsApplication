@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		h1 { 
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+		}
+	</style>
+	<meta charset="UTF-8">
+	<title>Contacts App</title>
+</head>
+	
+<body>
+	
+	<center><h1>Contacts App</h1></center>
+	<br><center><h4>Select an Option</h4></center>
+	<center><form method=POST  action="cgi-bin/contacts.cgi">
+		<select name="options" size="5">
+			<option value="print">Show All Contacts</option>
+			<option value="search">Search Contacts</option>
+			<option value="add">Add New Contact</option>
+			<option value="delete">Delete Contact</option>
+			<option value="update">Update Contact</option>
+	</select>
+	<br><br>
+	<input type=submit name=submit value=Submit>
+	
+	
+	</form></center>
+	
+</body>
+</html>
